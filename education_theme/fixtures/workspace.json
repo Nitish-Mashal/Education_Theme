@@ -1,0 +1,106 @@
+[
+ {
+  "charts": [
+   {
+    "chart_name": "Students by Academic Year",
+    "label": "Students List",
+    "parent": "Education Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Total Instructor",
+    "label": "Total Instructor",
+    "parent": "Education Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Student Batch",
+    "label": "Student Batch",
+    "parent": "Education Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   },
+   {
+    "chart_name": "Course",
+    "label": "Course",
+    "parent": "Education Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   }
+  ],
+  "content": "[{\"id\":\"rI1VWJiDt1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Education Dashboard</span>\",\"col\":12}},{\"id\":\"GTex6266Fr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Students List\",\"col\":6}},{\"id\":\"ymZXkVduOr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Total Instructor\",\"col\":6}},{\"id\":\"PBfT8cA3C6\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Course\",\"col\":6}},{\"id\":\"sXG4DhnLcv\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Student Batch\",\"col\":6}},{\"id\":\"3dA-1P1UwV\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Events\",\"col\":4}},{\"id\":\"5i_0hFPm1J\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Announcement\",\"col\":4}},{\"id\":\"XkEC59W1Bj\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Calendar\",\"col\":4}},{\"id\":\"I_llVYvlGS\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Student\",\"col\":4}},{\"id\":\"-sVsYq0awj\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Student Batch Name\",\"col\":4}},{\"id\":\"1yMsBiFKdW\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Course\",\"col\":4}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "table_2",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Education Dashboard",
+  "links": [],
+  "modified": "2025-09-12 17:22:59.418369",
+  "module": "Education",
+  "name": "Education Dashboard",
+  "number_cards": [],
+  "parent_page": "Education",
+  "public": 1,
+  "quick_lists": [
+   {
+    "document_type": "Event",
+    "label": "Events",
+    "parent": "Education Dashboard",
+    "parentfield": "quick_lists",
+    "parenttype": "Workspace",
+    "quick_list_filter": "[]"
+   },
+   {
+    "document_type": "Announcement",
+    "label": "Announcement",
+    "parent": "Education Dashboard",
+    "parentfield": "quick_lists",
+    "parenttype": "Workspace",
+    "quick_list_filter": "[]"
+   },
+   {
+    "document_type": "Student",
+    "label": "Student",
+    "parent": "Education Dashboard",
+    "parentfield": "quick_lists",
+    "parenttype": "Workspace",
+    "quick_list_filter": "[]"
+   },
+   {
+    "document_type": "Student Batch Name",
+    "label": "Student Batch Name",
+    "parent": "Education Dashboard",
+    "parentfield": "quick_lists",
+    "parenttype": "Workspace",
+    "quick_list_filter": "[]"
+   },
+   {
+    "document_type": "Course",
+    "label": "Course",
+    "parent": "Education Dashboard",
+    "parentfield": "quick_lists",
+    "parenttype": "Workspace",
+    "quick_list_filter": "[]"
+   },
+   {
+    "document_type": "Calendar View",
+    "label": "Calendar",
+    "parent": "Education Dashboard",
+    "parentfield": "quick_lists",
+    "parenttype": "Workspace",
+    "quick_list_filter": "[]"
+   }
+  ],
+  "restrict_to_domain": null,
+  "roles": [],
+  "sequence_id": 19.0,
+  "shortcuts": [],
+  "title": "Education Dashboard"
+ }
+]

@@ -21,6 +21,18 @@ app_license = "mit"
 # 	}
 # ]
 
+app_include_html = [
+    "/assets/education_theme/html/custom_sidebar.html"
+]
+
+app_include_js = [
+    "/assets/education_theme/js/custom_sidebar.js"
+]
+
+app_include_css = [
+    "/assets/education_theme/css/custom_sidebar.css" 
+]
+
 # Includes in <head>
 # ------------------
 
@@ -242,3 +254,13 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# Fixtures
+# ------------------
+
+fixtures = [
+    # Only the Education Dashboard workspace
+    {"dt": "Workspace", "filters": [["name", "=", "Education Dashboard"]]},
+
+    # All charts under Education module
+    {"dt": "Dashboard Chart", "filters": [["module", "=", "Education"]]},
+]
