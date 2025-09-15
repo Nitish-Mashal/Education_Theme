@@ -257,10 +257,27 @@ app_include_css = [
 # Fixtures
 # ------------------
 
-fixtures = [
-    # Only the Education Dashboard workspace
-    {"dt": "Workspace", "filters": [["name", "=", "Education Dashboard"]]},
+# fixtures = [
+#     # Only the Education Dashboard workspace
+#     {"dt": "Workspace", "filters": [["name", "=", "Education Dashboard"]]},
 
-    # All charts under Education module
+#     # All charts under Education module
+#     {"dt": "Dashboard Chart", "filters": [["module", "=", "Education"]]},
+# ]
+
+fixtures = [
+    {"dt": "Workspace", "filters": [
+        ["name", "in", [
+            "Education Dashboard",
+            "Student Info",
+            "Instructor Info",
+            "Attendance Student",
+            "Student Course",
+            "Student Fees",
+            "Program Enrollment Student",
+            "Academic",
+
+        ]]
+    ]},
     {"dt": "Dashboard Chart", "filters": [["module", "=", "Education"]]},
 ]
